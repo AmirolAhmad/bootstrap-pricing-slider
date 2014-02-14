@@ -1,5 +1,6 @@
 body {
 	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .price-box {
@@ -8,7 +9,6 @@ body {
 	border-radius: 3px;
 	padding: 40px 15px;
 	width: 500px;
-	/*text-align: center;*/
 }
 
 .ui-widget-content {
@@ -26,8 +26,9 @@ body {
 	cursor: default;
 	margin: 0 -40px auto !important;
 	text-align: center;	
-	line-height: 32px;
+	line-height: 30px;
 	color: #FFFFFF;
+	font-size: 15px;
 }
 
 .ui-slider .ui-slider-handle .glyphicon {
@@ -38,7 +39,7 @@ body {
 }
 
 .ui-corner-all {
-	border-radius: 15px;
+	border-radius: 20px;
 }
 
 .ui-slider-horizontal .ui-slider-handle {
@@ -75,14 +76,44 @@ h4.great {
 	background: #00ac98;
 	margin: 0 0 25px -60px;
 	padding: 7px 15px;
-	width: 5.1em;
 	color: #ffffff;
-	font-size: 20px;
+	font-size: 18px;
+	font-weight: 600;
 	border-radius: 5px;
+	display: inline-block;
+	-moz-box-shadow:    2px 4px 5px 0 #ccc;
+  	-webkit-box-shadow: 2px 4px 5px 0 #ccc;
+  	box-shadow:         2px 4px 5px 0 #ccc;
+}
+
+.total {
+	border-bottom: 1px solid #7f8c8d;
+	/*display: inline;
+	padding: 10px 5px;*/
+	position: relative;
+}
+
+.total:before {
+	content: "";
+	display: inline;
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+	width: 100%;
+	height: 3px;
+	background: #7f8c8d;
+	opacity: 0.5;
 }
 
 .price-slider {
 	margin-bottom: 70px;
+}
+
+.price-slider span {
+	font-weight: 200;
+	display: inline-block;
+	color: #7f8c8d;
+	font-size: 13px;
 }
 
 .form-pricing {
@@ -97,14 +128,20 @@ h4.great {
 	padding: 20px;
 	border: 1px solid #eeeeee;
 	border-radius: 4px;
+	/*-moz-box-shadow:    0 5px 5px 0 #ccc;
+  	-webkit-box-shadow: 0 5px 5px 0 #ccc;
+  	box-shadow:         0 5px 5px 0 #ccc;*/
 }
 
 .form-group {
 	margin-bottom: 0;
 }
 
-.form-group span {
+.form-group span.price {
+	font-weight: 200;
 	display: inline-block;
+	color: #7f8c8d;
+	font-size: 14px;
 }
 
 .price-form label {
@@ -116,6 +153,10 @@ img.payment {
 	display: block;
     margin-left: auto;
     margin-right: auto
+}
+
+.ui-slider-range-min {
+	background: #2980b9;
 }
 
 /* HR */

@@ -19,12 +19,14 @@
 
           <div class="price-slider">
             <h4 class="great">Amount</h4>
+            <span>Minimum $10 is required</span>
             <div class="col-sm-12">
               <div id="slider"></div>
             </div>
           </div>
           <div class="price-slider">
             <h4 class="great">Duration</h4>
+            <span>Minimum 1 day is required</span>
             <div class="col-sm-12">
               <div id="slider2"></div>
             </div>
@@ -37,7 +39,7 @@
               <div class="col-sm-6">
                 <input type="hidden" id="amount" class="form-control">
                 <p class="price lead" id="amount-label"></p>
-                <span>.00</span>
+                <span class="price">.00</span>
               </div>
             </div>
             <div class="form-group">
@@ -45,16 +47,16 @@
               <div class="col-sm-6">
                 <input type="hidden" id="duration" class="form-control">
                 <p class="price lead" id="duration-label"></p>
-                <span>days</span>
+                <span class="price">days</span>
               </div>
             </div>
             <hr class="style">
-            <div class="form-group">
-              <label for="total" class="col-sm-6 control-label">Total: </label>
+            <div class="form-group total">
+              <label for="total" class="col-sm-6 control-label"><strong>Total: </strong></label>
               <div class="col-sm-6">
                 <input type="hidden" id="total" class="form-control">
                 <p class="price lead" id="total-label"></p>
-                <span>.00</span>
+                <span class="price">.00</span>
               </div>
             </div>
 
@@ -72,6 +74,9 @@
           </div>
 
         </form>
+
+        <p class="text-center" style="padding-top:10px;font-size:12px;color:#2c3e50;font-style:italic;">Created by <a href="https://twitter.com/AmirolAhmad" target="_blank">AmirolAhmad</a></p>
+
       </div>
 
     </div>
@@ -84,24 +89,26 @@
     <script>
       $(document).ready(function() {
           $("#slider").slider({
+              range: "min",
               animate: true,
               value:1,
-              min: 0,
+              min: 10,
               max: 1000,
               step: 10,
               slide: function(event, ui) {
-                  update(1,ui.value); //changed
+                update(1,ui.value); //changed
               }
           });
 
           $("#slider2").slider({
+              range: "min",
               animate: true,
-              value:0,
-              min: 0,
-              max: 500,
+              value:1,
+              min: 1,
+              max: 365,
               step: 1,
               slide: function(event, ui) {
-                  update(2,ui.value); //changed
+                update(2,ui.value); //changed
               }
           });
 
