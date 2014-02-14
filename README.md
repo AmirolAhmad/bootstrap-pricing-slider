@@ -5,7 +5,7 @@ Bootstrap Pricing Slider
 Bootstrap Pricing Slider
 
 ## Website Development
-+ [http://bootstrap-pricing-slider.github.io/](http://bootstrap-pricing-slider.github.io/)
++ [http://amirolahmad.github.io/bootstrap-pricing-slider/](http://amirolahmad.github.io/bootstrap-pricing-slider/)
 
 ## Authors
 + [https://twitter.com/amirolahmad](https://twitter.com/amirolahmad)
