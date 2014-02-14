@@ -70,6 +70,7 @@ body {
 	font-weight: 600;
 	font-size: 32px;
 	display: inline-block;
+	line-height: 60px;
 }
 
 h4.great {
@@ -91,6 +92,7 @@ h4.great {
 	/*display: inline;
 	padding: 10px 5px;*/
 	position: relative;
+	padding-bottom: 20px;
 }
 
 .total:before {
@@ -144,6 +146,18 @@ h4.great {
 	font-size: 14px;
 }
 
+.help-text {
+	display: block;
+	margin-top: 32px;
+	margin-bottom: 10px;
+	color: #737373;
+	position: absolute;
+	/*margin-left: 20px;*/
+	font-weight: 200;
+	text-align: right;
+	width: 188px;
+}
+
 .price-form label {
 	font-weight: 200;
 	font-size: 21px;
@@ -162,6 +176,7 @@ img.payment {
 /* HR */
 
 hr.style {
+	margin-top: 0;
     border: 0;
     border-bottom: 1px dashed #ccc;
     background: #999;
