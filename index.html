@@ -111,7 +111,7 @@
       function update() {
            $amount = $( "#slider" ).slider( "value" );
            $duration = $( "#slider2" ).slider( "value" );
-           $total = "$" + ($amount + $duration);
+           $total = "$" + ($amount * $duration);
            $( "#amount" ).val($amount);
            $( "#amount-label" ).text($amount);
            $( "#duration" ).val($duration);
