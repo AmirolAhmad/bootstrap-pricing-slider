@@ -25,7 +25,7 @@ body {
 	height: 2.2em;
 	cursor: default;
 	margin: 0 -40px auto !important;
-	text-align: center;	
+	text-align: center;
 	line-height: 30px;
 	color: #FFFFFF;
 	font-size: 15px;
@@ -33,8 +33,7 @@ body {
 
 .ui-slider .ui-slider-handle .glyphicon {
 	color: #FFFFFF;
-	margin: 0 3px; 
-	font-size: 11px;
+	font-size: 13px;
 	opacity: 0.5;
 }
 
@@ -60,8 +59,8 @@ body {
 	cursor: pointer;
 }
 
-.ui-slider a,
-.ui-slider a:focus {
+.ui-slider span,
+.ui-slider span:focus {
 	cursor: pointer;
 	outline: none;
 }
