@@ -1,24 +1,14 @@
 body {
 	padding-top: 50px;
-<<<<<<< HEAD
 	padding-bottom: 50px;
-=======
->>>>>>> update pages
 }
 
 .price-box {
 	margin: 0 auto;
 	background: #E9E9E9;
-<<<<<<< HEAD
 	border-radius: 10px;
 	padding: 40px 15px;
 	width: 500px;
-=======
-	border-radius: 3px;
-	padding: 40px 15px;
-	width: 500px;
-	/*text-align: center;*/
->>>>>>> update pages
 }
 
 .ui-widget-content {
@@ -36,33 +26,19 @@ body {
 	cursor: default;
 	margin: 0 -40px auto !important;
 	text-align: center;
-<<<<<<< HEAD
 	line-height: 30px;
 	color: #FFFFFF;
 	font-size: 15px;
-=======
-	line-height: 32px;
-	color: #FFFFFF;
->>>>>>> update pages
 }
 
 .ui-slider .ui-slider-handle .glyphicon {
 	color: #FFFFFF;
-<<<<<<< HEAD
 	font-size: 13px;
-=======
-	margin: 0 3px;
-	font-size: 11px;
->>>>>>> update pages
 	opacity: 0.5;
 }
 
 .ui-corner-all {
-<<<<<<< HEAD
 	border-radius: 20px;
-=======
-	border-radius: 15px;
->>>>>>> update pages
 }
 
 .ui-slider-horizontal .ui-slider-handle {
@@ -83,13 +59,8 @@ body {
 	cursor: pointer;
 }
 
-<<<<<<< HEAD
 .ui-slider span,
 .ui-slider span:focus {
-=======
-.ui-slider a,
-.ui-slider a:focus {
->>>>>>> update pages
 	cursor: pointer;
 	outline: none;
 }
@@ -98,17 +69,13 @@ body {
 	font-weight: 600;
 	font-size: 32px;
 	display: inline-block;
-<<<<<<< HEAD
 	line-height: 60px;
-=======
->>>>>>> update pages
 }
 
 h4.great {
 	background: #00ac98;
 	margin: 0 0 25px -60px;
 	padding: 7px 15px;
-<<<<<<< HEAD
 	color: #ffffff;
 	font-size: 18px;
 	font-weight: 600;
@@ -137,19 +104,12 @@ h4.great {
 	height: 3px;
 	background: #7f8c8d;
 	opacity: 0.5;
-=======
-	width: 5.1em;
-	color: #ffffff;
-	font-size: 20px;
-	border-radius: 5px;
->>>>>>> update pages
 }
 
 .price-slider {
 	margin-bottom: 70px;
 }
 
-<<<<<<< HEAD
 .price-slider span {
 	font-weight: 200;
 	display: inline-block;
@@ -157,8 +117,6 @@ h4.great {
 	font-size: 13px;
 }
 
-=======
->>>>>>> update pages
 .form-pricing {
 	background: #ffffff;
 	padding: 20px;
@@ -171,19 +129,15 @@ h4.great {
 	padding: 20px;
 	border: 1px solid #eeeeee;
 	border-radius: 4px;
-<<<<<<< HEAD
 	/*-moz-box-shadow:    0 5px 5px 0 #ccc;
   	-webkit-box-shadow: 0 5px 5px 0 #ccc;
   	box-shadow:         0 5px 5px 0 #ccc;*/
-=======
->>>>>>> update pages
 }
 
 .form-group {
 	margin-bottom: 0;
 }
 
-<<<<<<< HEAD
 .form-group span.price {
 	font-weight: 200;
 	display: inline-block;
@@ -201,10 +155,6 @@ h4.great {
 	font-weight: 200;
 	text-align: right;
 	width: 188px;
-=======
-.form-group span {
-	display: inline-block;
->>>>>>> update pages
 }
 
 .price-form label {
@@ -218,7 +168,6 @@ img.payment {
     margin-right: auto
 }
 
-<<<<<<< HEAD
 .ui-slider-range-min {
 	background: #2980b9;
 }
@@ -231,12 +180,3 @@ hr.style {
     border-bottom: 1px dashed #ccc;
     background: #999;
 }
-=======
-/* HR */
-
-hr.style {
-    border: 0;
-    border-bottom: 1px dashed #ccc;
-    background: #999;
-}
->>>>>>> update pages
